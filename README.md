@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [3 Column Preview Card](https://github.com/lmebratt/3-column-preview-card-component)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/3-column-preview-card-vyBDFKzcEa)
 - Live Site URL: [3 Column Preview Card](https://lmebratt.github.io/3-column-preview-card-component/)
 
 ## My process
