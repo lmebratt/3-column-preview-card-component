@@ -44,7 +44,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [3 Column Preview Card](https://github.com/lmebratt/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [3 Column Preview Card](https://lmebratt.github.io/3-column-preview-card-component/)
 
 ## My process
 
