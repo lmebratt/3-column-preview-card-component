@@ -1,0 +1,102 @@
+:root {
+    --sedans: #e38826;
+    --suvs: #006970;
+    --luxury: #004241;
+    --paragraphs:#ffffffbf;
+    --background-headings-buttons: #f2f2f2;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--background-headings-buttons);
+    margin: 20px 0;
+}
+.cards-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cards-main div {
+    display: grid;
+    justify-items: start;
+    width: 300px;
+    height: 450px;
+    padding: 36px;
+}
+.cards-main div:first-child {
+    background-color: var(--sedans);
+    border-radius: 8px 8px 0 0;
+}
+.cards-main div:nth-child(2) {
+    background-color: var(--suvs);
+}
+.cards-main div:last-child {
+    background-color: var(--luxury);
+    border-radius: 0 0 8px 8px;
+}
+.cards-main div h1 {
+    color: var(--background-headings-buttons);
+}
+.cards-main div p {
+    color: var(--paragraphs);
+}
+.cards-main div button {
+    font-weight: 700;
+    background-color: var(--background-headings-buttons);
+    border: none;
+    border-radius: 28px;
+    width: 140px;
+    height: 40px;
+}
+.cards-main div:first-child button {
+    color: var(--sedans);
+}
+.cards-main div:first-child button:hover {
+    color: var(--background-headings-buttons);
+    background-color: var(--sedans);
+    border: solid 2px var(--background-headings-buttons);
+}
+.cards-main div:nth-child(2) button {
+    color: var(--suvs);
+}
+.cards-main div:nth-child(2) button:hover {
+    color: var(--background-headings-buttons);
+    background-color: var(--suvs);
+    border: solid 2px var(--background-headings-buttons);
+}
+.cards-main div:last-child button {
+    color: var(--luxury);
+}
+.cards-main div:last-child button:hover {
+    color: var(--background-headings-buttons);
+    background-color: var(--luxury);
+    border: solid 2px var(--background-headings-buttons);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 940px) {
+    .container {
+        display: grid;
+        height: 100vh;
+    }
+    .cards-main {
+        flex-direction: row;
+    }
+    .cards-main div:first-child {
+        border-radius: 8px 0 0 8px;
+    }
+    .cards-main div:last-child {
+        border-radius: 0 8px 8px 0;
+    }
+}
